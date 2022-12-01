@@ -1,0 +1,52 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+}
+
+table,tr,th,td{
+   
+    background-color: brown;
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    color: white;
+    margin: 5px;
+   
+
+}
+td{
+    background-color: gray;
+}
+.gmail,.name{
+    width: 500px;
+    
+   
+    
+}
+#pagenumber{
+    
+}
+button{
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: green;
+    border-radius: 15px;
+    transition: 0.5s;
+    color: white;
+    
+}
+button:hover{
+    transform: scale(1.5);
+}
+
